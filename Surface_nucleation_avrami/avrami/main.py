@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#python main.py\Users\20224751\Downloads\SN_TEST.csv 6.0 0.05 1 1 -l --log
+#python -m avrami file_path 6.0 0.05 1 1 -l --log
+
 from avrami.file_load import data_import 
 from avrami.functions import DH_fitting
 from avrami.plots import scatter_plot, scatter_plot_fit
