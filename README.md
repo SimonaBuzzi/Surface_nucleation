@@ -10,5 +10,7 @@ pip install avrami
 ## Example usage
 ```
 from avrami.main import avrami_data_process
+file_path = your .csv file
+initial_guess = enthalpy, k, tzero, n
 ```
 
